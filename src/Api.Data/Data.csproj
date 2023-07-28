@@ -3,5 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+  <ItemGroup>
+  <PackageReference Include="EntityFrameworkCore.Temporal.Standard" Version="1.0.0" />
+  </ItemGroup>
 
 </Project>
