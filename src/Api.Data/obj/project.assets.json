@@ -2,64 +2,6 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Arch.EntityFrameworkCore/2.1.15": {
-        "type": "package",
-        "dependencies": {
-          "Arch.EntityFrameworkCore.Abstractions": "2.1.15",
-          "Arch.EntityFrameworkCore.Analyzers": "2.1.15",
-          "Microsoft.Extensions.Caching.Memory": "2.1.1",
-          "Microsoft.Extensions.DependencyInjection": "2.1.1",
-          "Microsoft.Extensions.Logging": "2.1.1",
-          "Remotion.Linq": "2.2.0",
-          "System.Collections.Immutable": "1.5.0",
-          "System.ComponentModel.Annotations": "4.5.0",
-          "System.Diagnostics.DiagnosticSource": "4.5.1",
-          "System.Interactive.Async": "3.1.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Arch.EntityFrameworkCore.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Arch.EntityFrameworkCore.dll": {}
-        }
-      },
-      "Arch.EntityFrameworkCore.Abstractions/2.1.15": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Arch.EntityFrameworkCore.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Arch.EntityFrameworkCore.Abstractions.dll": {}
-        }
-      },
-      "Arch.EntityFrameworkCore.Analyzers/2.1.15": {
-        "type": "package"
-      },
-      "Arch.EntityFrameworkCore.Design/2.1.15": {
-        "type": "package",
-        "dependencies": {
-          "Arch.EntityFrameworkCore.Relational": "2.1.15",
-          "Microsoft.CSharp": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Arch.EntityFrameworkCore.Design.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Arch.EntityFrameworkCore.Design.dll": {}
-        }
-      },
-      "Arch.EntityFrameworkCore.Relational/2.1.15": {
-        "type": "package",
-        "dependencies": {
-          "Arch.EntityFrameworkCore": "2.1.15"
-        },
-        "compile": {
-          "lib/netstandard2.0/Arch.EntityFrameworkCore.Relational.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Arch.EntityFrameworkCore.Relational.dll": {}
-        }
-      },
       "Castle.Core/4.4.0": {
         "type": "package",
         "dependencies": {
@@ -642,7 +584,7 @@
           "lib/netcoreapp2.1/Microsoft.Bcl.HashCode.dll": {}
         }
       },
-      "Microsoft.CSharp/4.5.0": {
+      "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.0/_._": {}
@@ -735,6 +677,22 @@
         },
         "runtime": {
           "lib/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Design/3.1.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.6"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+        },
+        "build": {
+          "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
       "Microsoft.EntityFrameworkCore.InMemory/3.0.0": {
@@ -1332,28 +1290,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Pomelo.JsonObject.dll": {}
-        }
-      },
-      "Remotion.Linq/2.2.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Collections": "4.0.11",
-          "System.Diagnostics.Debug": "4.0.11",
-          "System.Linq": "4.1.0",
-          "System.Linq.Expressions": "4.1.0",
-          "System.Linq.Queryable": "4.0.1",
-          "System.ObjectModel": "4.0.12",
-          "System.Reflection": "4.1.0",
-          "System.Reflection.Extensions": "4.0.1",
-          "System.Runtime": "4.1.0",
-          "System.Runtime.Extensions": "4.1.0",
-          "System.Threading": "4.0.11"
-        },
-        "compile": {
-          "lib/netstandard1.0/Remotion.Linq.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.0/Remotion.Linq.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -2007,18 +1943,6 @@
           "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll": {}
         }
       },
-      "System.Interactive.Async/3.1.1": {
-        "type": "package",
-        "dependencies": {
-          "NETStandard.Library": "1.6.0"
-        },
-        "compile": {
-          "lib/netstandard1.3/System.Interactive.Async.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.3/System.Interactive.Async.dll": {}
-        }
-      },
       "System.IO/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2155,25 +2079,6 @@
         },
         "runtime": {
           "lib/netstandard1.6/System.Linq.Expressions.dll": {}
-        }
-      },
-      "System.Linq.Queryable/4.0.1": {
-        "type": "package",
-        "dependencies": {
-          "System.Collections": "4.0.11",
-          "System.Diagnostics.Debug": "4.0.11",
-          "System.Linq": "4.1.0",
-          "System.Linq.Expressions": "4.1.0",
-          "System.Reflection": "4.1.0",
-          "System.Reflection.Extensions": "4.0.1",
-          "System.Resources.ResourceManager": "4.0.1",
-          "System.Runtime": "4.1.0"
-        },
-        "compile": {
-          "ref/netstandard1.0/System.Linq.Queryable.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.3/System.Linq.Queryable.dll": {}
         }
       },
       "System.Net.Http/4.3.0": {
@@ -3147,74 +3052,6 @@
     }
   },
   "libraries": {
-    "Arch.EntityFrameworkCore/2.1.15": {
-      "sha512": "Mr1T0xFiQ5eOqFnIn9DuXGoBggm/b3jC2o4emq7+tKpuxiodeQxophuFrjy5eMBvb0GwZF7QO81kOBltirz8qA==",
-      "type": "package",
-      "path": "arch.entityframeworkcore/2.1.15",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "arch.entityframeworkcore.2.1.15.nupkg.sha512",
-        "arch.entityframeworkcore.nuspec",
-        "lib/netstandard2.0/Arch.EntityFrameworkCore.dll",
-        "lib/netstandard2.0/Arch.EntityFrameworkCore.xml"
-      ]
-    },
-    "Arch.EntityFrameworkCore.Abstractions/2.1.15": {
-      "sha512": "uQbT1u3IylnxP5cqs9XB18JcTNdgWd5BXYoyB1T1ZCEeagFi4bxZZsfV8A0Q52jjz7HKGxW6YBF27NEpUXVRBQ==",
-      "type": "package",
-      "path": "arch.entityframeworkcore.abstractions/2.1.15",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "arch.entityframeworkcore.abstractions.2.1.15.nupkg.sha512",
-        "arch.entityframeworkcore.abstractions.nuspec",
-        "lib/netstandard2.0/Arch.EntityFrameworkCore.Abstractions.dll",
-        "lib/netstandard2.0/Arch.EntityFrameworkCore.Abstractions.xml"
-      ]
-    },
-    "Arch.EntityFrameworkCore.Analyzers/2.1.15": {
-      "sha512": "u8FjGt9fgFZe0GhRIXOsBq+ksD3votb/7SFc08/ke1G9uqAD56se6MONAKRV11jdKaHoIBvYK4e18gqT5IDuNg==",
-      "type": "package",
-      "path": "arch.entityframeworkcore.analyzers/2.1.15",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "analyzers/dotnet/cs/Arch.EntityFrameworkCore.Analyzers.dll",
-        "arch.entityframeworkcore.analyzers.2.1.15.nupkg.sha512",
-        "arch.entityframeworkcore.analyzers.nuspec"
-      ]
-    },
-    "Arch.EntityFrameworkCore.Design/2.1.15": {
-      "sha512": "RqM/ewdmC3WMQgFkcu5NbH97Pj4r/FLSxNkU+C2NPzvmnzKGdmp8mC/l02HdyAWmW+PbjID9a3m/bkAdRwRYXw==",
-      "type": "package",
-      "path": "arch.entityframeworkcore.design/2.1.15",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "arch.entityframeworkcore.design.2.1.15.nupkg.sha512",
-        "arch.entityframeworkcore.design.nuspec",
-        "build/net461/Microsoft.EntityFrameworkCore.Design.props",
-        "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props",
-        "lib/net461/Arch.EntityFrameworkCore.Design.dll",
-        "lib/net461/Arch.EntityFrameworkCore.Design.xml",
-        "lib/netstandard2.0/Arch.EntityFrameworkCore.Design.dll",
-        "lib/netstandard2.0/Arch.EntityFrameworkCore.Design.xml"
-      ]
-    },
-    "Arch.EntityFrameworkCore.Relational/2.1.15": {
-      "sha512": "L/NGCUVoMm9mcIl7dm46nt7VBv+i7nhv+SvjWjxDVu4bPPvEuBNWk8qX7azje7uexiIzhv89k/YSv/d3vT5q9Q==",
-      "type": "package",
-      "path": "arch.entityframeworkcore.relational/2.1.15",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "arch.entityframeworkcore.relational.2.1.15.nupkg.sha512",
-        "arch.entityframeworkcore.relational.nuspec",
-        "lib/netstandard2.0/Arch.EntityFrameworkCore.Relational.dll",
-        "lib/netstandard2.0/Arch.EntityFrameworkCore.Relational.xml"
-      ]
-    },
     "Castle.Core/4.4.0": {
       "sha512": "b5rRL5zeaau1y/5hIbI+6mGw3cwun16YjkHZnV9RRT5UyUIFsgLmNXJ0YnIN9p8Hw7K7AbG1q1UclQVU3DinAQ==",
       "type": "package",
@@ -3885,10 +3722,10 @@
         "version.txt"
       ]
     },
-    "Microsoft.CSharp/4.5.0": {
-      "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+    "Microsoft.CSharp/4.7.0": {
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "type": "package",
-      "path": "microsoft.csharp/4.5.0",
+      "path": "microsoft.csharp/4.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3901,6 +3738,7 @@
         "lib/netcoreapp2.0/_._",
         "lib/netstandard1.3/Microsoft.CSharp.dll",
         "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.xml",
         "lib/portable-net45+win8+wp8+wpa81/_._",
         "lib/uap10.0.16299/_._",
         "lib/win8/_._",
@@ -3910,7 +3748,7 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "microsoft.csharp.4.5.0.nupkg.sha512",
+        "microsoft.csharp.4.7.0.nupkg.sha512",
         "microsoft.csharp.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
@@ -4051,6 +3889,22 @@
         "lib/netstandard2.0/_._",
         "microsoft.entityframeworkcore.analyzers.3.1.6.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Design/3.1.6": {
+      "sha512": "ji+fRRy6WpH9B1JRTTVSdIHSqHPMFD/ghmlbOENXa2pxyujEAno8Gtn6dDXl5UJbptCInzqoOpTl3W9etQKIMA==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.design/3.1.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/net461/Microsoft.EntityFrameworkCore.Design.props",
+        "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.xml",
+        "microsoft.entityframeworkcore.design.3.1.6.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.InMemory/3.0.0": {
@@ -4845,27 +4699,6 @@
         "lib/netstandard2.0/Pomelo.JsonObject.dll",
         "pomelo.jsonobject.2.2.0.nupkg.sha512",
         "pomelo.jsonobject.nuspec"
-      ]
-    },
-    "Remotion.Linq/2.2.0": {
-      "sha512": "fK/76UmpC0FXBlGDFVPLJHQlDLYnGC+XY3eoDgCgbtrhi0vzbXDQ3n/IYHhqSKqXQfGw/u04A1drWs7rFVkRjw==",
-      "type": "package",
-      "path": "remotion.linq/2.2.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net35/Remotion.Linq.XML",
-        "lib/net35/Remotion.Linq.dll",
-        "lib/net40/Remotion.Linq.XML",
-        "lib/net40/Remotion.Linq.dll",
-        "lib/net45/Remotion.Linq.XML",
-        "lib/net45/Remotion.Linq.dll",
-        "lib/netstandard1.0/Remotion.Linq.dll",
-        "lib/netstandard1.0/Remotion.Linq.xml",
-        "lib/portable-net45+win+wpa81+wp80/Remotion.Linq.dll",
-        "lib/portable-net45+win+wpa81+wp80/Remotion.Linq.xml",
-        "remotion.linq.2.2.0.nupkg.sha512",
-        "remotion.linq.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -6383,25 +6216,6 @@
         "system.identitymodel.tokens.jwt.nuspec"
       ]
     },
-    "System.Interactive.Async/3.1.1": {
-      "sha512": "hZccYiIE5RS1/J9Tb/BNtosAGVggdlsJm4Ojdu+gDV0p4AIi+LUfUogMKkRacljQEJd2AG6vYzvcjhQFkqoZmw==",
-      "type": "package",
-      "path": "system.interactive.async/3.1.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net45/System.Interactive.Async.dll",
-        "lib/net45/System.Interactive.Async.xml",
-        "lib/net46/System.Interactive.Async.dll",
-        "lib/net46/System.Interactive.Async.xml",
-        "lib/netstandard1.0/System.Interactive.Async.dll",
-        "lib/netstandard1.0/System.Interactive.Async.xml",
-        "lib/netstandard1.3/System.Interactive.Async.dll",
-        "lib/netstandard1.3/System.Interactive.Async.xml",
-        "system.interactive.async.3.1.1.nupkg.sha512",
-        "system.interactive.async.nuspec"
-      ]
-    },
     "System.IO/4.3.0": {
       "sha512": "3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
       "type": "package",
@@ -6824,65 +6638,6 @@
         "runtimes/aot/lib/netcore50/System.Linq.Expressions.dll",
         "system.linq.expressions.4.3.0.nupkg.sha512",
         "system.linq.expressions.nuspec"
-      ]
-    },
-    "System.Linq.Queryable/4.0.1": {
-      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
-      "type": "package",
-      "path": "system.linq.queryable/4.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
-        "lib/monoandroid10/_._",
-        "lib/monotouch10/_._",
-        "lib/net45/_._",
-        "lib/netcore50/System.Linq.Queryable.dll",
-        "lib/netstandard1.3/System.Linq.Queryable.dll",
-        "lib/portable-net45+win8+wp8+wpa81/_._",
-        "lib/win8/_._",
-        "lib/wp80/_._",
-        "lib/wpa81/_._",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/monoandroid10/_._",
-        "ref/monotouch10/_._",
-        "ref/net45/_._",
-        "ref/netcore50/System.Linq.Queryable.dll",
-        "ref/netcore50/System.Linq.Queryable.xml",
-        "ref/netcore50/de/System.Linq.Queryable.xml",
-        "ref/netcore50/es/System.Linq.Queryable.xml",
-        "ref/netcore50/fr/System.Linq.Queryable.xml",
-        "ref/netcore50/it/System.Linq.Queryable.xml",
-        "ref/netcore50/ja/System.Linq.Queryable.xml",
-        "ref/netcore50/ko/System.Linq.Queryable.xml",
-        "ref/netcore50/ru/System.Linq.Queryable.xml",
-        "ref/netcore50/zh-hans/System.Linq.Queryable.xml",
-        "ref/netcore50/zh-hant/System.Linq.Queryable.xml",
-        "ref/netstandard1.0/System.Linq.Queryable.dll",
-        "ref/netstandard1.0/System.Linq.Queryable.xml",
-        "ref/netstandard1.0/de/System.Linq.Queryable.xml",
-        "ref/netstandard1.0/es/System.Linq.Queryable.xml",
-        "ref/netstandard1.0/fr/System.Linq.Queryable.xml",
-        "ref/netstandard1.0/it/System.Linq.Queryable.xml",
-        "ref/netstandard1.0/ja/System.Linq.Queryable.xml",
-        "ref/netstandard1.0/ko/System.Linq.Queryable.xml",
-        "ref/netstandard1.0/ru/System.Linq.Queryable.xml",
-        "ref/netstandard1.0/zh-hans/System.Linq.Queryable.xml",
-        "ref/netstandard1.0/zh-hant/System.Linq.Queryable.xml",
-        "ref/portable-net45+win8+wp8+wpa81/_._",
-        "ref/win8/_._",
-        "ref/wp80/_._",
-        "ref/wpa81/_._",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.linq.queryable.4.0.1.nupkg.sha512",
-        "system.linq.queryable.nuspec"
       ]
     },
     "System.Net.Http/4.3.0": {
@@ -9558,10 +9313,10 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Arch.EntityFrameworkCore.Design >= 2.1.15",
       "DashboardCode.Routines.Storage.EfCore.Relational >= 3.0.5",
       "Domain >= 1.0.0",
       "Fangxf.HisServer.EntityFrameworkCore.MySql >= 3.0.1",
+      "Microsoft.EntityFrameworkCore.Design >= 3.1.6",
       "SSRD.IdentityUI.EntityFrameworkCore.SqlServer >= 3.1.0"
     ]
   },
@@ -9611,10 +9366,6 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
-          "Arch.EntityFrameworkCore.Design": {
-            "target": "Package",
-            "version": "[2.1.15, )"
-          },
           "DashboardCode.Routines.Storage.EfCore.Relational": {
             "target": "Package",
             "version": "[3.0.5, )"
@@ -9622,6 +9373,10 @@
           "Fangxf.HisServer.EntityFrameworkCore.MySql": {
             "target": "Package",
             "version": "[3.0.1, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "target": "Package",
+            "version": "[3.1.6, )"
           },
           "SSRD.IdentityUI.EntityFrameworkCore.SqlServer": {
             "target": "Package",

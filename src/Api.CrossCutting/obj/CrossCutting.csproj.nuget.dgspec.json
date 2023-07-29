@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Arquitetura-DDD\\src\\Api.CrossCutting\\CrossCutting.csproj": {}
+    "c:\\Users\\Arquitetura-DDD\\src\\Api.CrossCutting\\CrossCutting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Arquitetura-DDD\\src\\Api.CrossCutting\\CrossCutting.csproj": {
+    "c:\\Users\\Arquitetura-DDD\\src\\Api.CrossCutting\\CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arquitetura-DDD\\src\\Api.CrossCutting\\CrossCutting.csproj",
+        "projectUniqueName": "c:\\Users\\Arquitetura-DDD\\src\\Api.CrossCutting\\CrossCutting.csproj",
         "projectName": "CrossCutting",
-        "projectPath": "C:\\Users\\Arquitetura-DDD\\src\\Api.CrossCutting\\CrossCutting.csproj",
+        "projectPath": "c:\\Users\\Arquitetura-DDD\\src\\Api.CrossCutting\\CrossCutting.csproj",
         "packagesPath": "C:\\Users\\nessa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arquitetura-DDD\\src\\Api.CrossCutting\\obj\\",
+        "outputPath": "c:\\Users\\Arquitetura-DDD\\src\\Api.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
