@@ -7,3 +7,6 @@ C:\Users\Arquitetura-DDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.
 C:\Users\Arquitetura-DDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
 C:\Users\Arquitetura-DDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.dll
 C:\Users\Arquitetura-DDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.pdb
+C:\Users\Arquitetura-DDD\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Arquitetura-DDD\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Arquitetura-DDD\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete

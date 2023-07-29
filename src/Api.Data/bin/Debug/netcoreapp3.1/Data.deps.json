@@ -10,6 +10,7 @@
         "dependencies": {
           "Arch.EntityFrameworkCore.Design": "2.1.15",
           "DashboardCode.Routines.Storage.EfCore.Relational": "3.0.5",
+          "Domain": "1.0.0",
           "SSRD.IdentityUI.EntityFrameworkCore.SqlServer": "3.1.0"
         },
         "runtime": {
@@ -1943,6 +1944,11 @@
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
         }
+      },
+      "Domain/1.0.0": {
+        "runtime": {
+          "Domain.dll": {}
+        }
       }
     }
   },
@@ -3372,6 +3378,11 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

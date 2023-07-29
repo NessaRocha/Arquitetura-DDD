@@ -3049,6 +3049,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
       }
     }
   },
@@ -9345,12 +9355,18 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Api.Domain/Domain.csproj",
+      "msbuildProject": "../Api.Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Arch.EntityFrameworkCore.Design >= 2.1.15",
       "DashboardCode.Routines.Storage.EfCore.Relational >= 3.0.5",
+      "Domain >= 1.0.0",
       "SSRD.IdentityUI.EntityFrameworkCore.SqlServer >= 3.1.0"
     ]
   },
@@ -9384,7 +9400,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Arquitetura-DDD\\src\\Api.Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Arquitetura-DDD\\src\\Api.Domain\\Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
