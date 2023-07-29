@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[3.0.5, )"
             },
+            "Fangxf.HisServer.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
             "SSRD.IdentityUI.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.0, )"
