@@ -99,7 +99,17 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Arquitetura-DDD\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\Arquitetura-DDD\\src\\Api.Data\\Data.csproj"
+              },
+              "C:\\Users\\Arquitetura-DDD\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Arquitetura-DDD\\src\\Api.Domain\\Domain.csproj"
+              },
+              "C:\\Users\\Arquitetura-DDD\\src\\Api.Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\Arquitetura-DDD\\src\\Api.Service\\Service.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -290,9 +300,6 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Arquitetura-DDD\\src\\Api.CrossCutting\\CrossCutting.csproj": {
-                "projectPath": "C:\\Users\\Arquitetura-DDD\\src\\Api.CrossCutting\\CrossCutting.csproj"
-              },
               "C:\\Users\\Arquitetura-DDD\\src\\Api.Data\\Data.csproj": {
                 "projectPath": "C:\\Users\\Arquitetura-DDD\\src\\Api.Data\\Data.csproj"
               },
