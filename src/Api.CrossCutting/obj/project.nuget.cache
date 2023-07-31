@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tZnSC9AHfZmY3lVulNDl22MQVLggf6PIyixTrMBs2q1jAbGyfklZQhldO7HtKE3DfTeM65FSfg+kTOyem9q+KQ==",
+  "dgSpecHash": "z+FKJ/sH/jovupnztTtP1M41sPy2ycpBIQqXTcpfelN++WkmezxFV0usWlr21asYD7zti02rMijZpKA0sR+HsA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Arquitetura-DDD\\src\\Api.CrossCutting\\CrossCutting.csproj",
+  "projectFilePath": "C:\\Users\\Arquitetura-DDD\\src\\Api.CrossCutting\\CrossCutting.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
