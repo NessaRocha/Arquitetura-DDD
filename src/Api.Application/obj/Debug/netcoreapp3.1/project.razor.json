@@ -12913,6 +12913,219 @@
         }
       },
       {
+        "HashCode": 643151466,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__AdminUIDotLoaderViewComponentTagHelper",
+        "AssemblyName": "SSRD.AdminUI.Template",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:admin-ui-dot-loader"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "show-loader",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "showLoader"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__AdminUIDotLoaderViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "AdminUIDotLoader"
+        }
+      },
+      {
+        "HashCode": -1975715439,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__AdminUIErrorAlertViewComponentTagHelper",
+        "AssemblyName": "SSRD.AdminUI.Template",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:admin-ui-error-alert"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__AdminUIErrorAlertViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "AdminUIErrorAlert"
+        }
+      },
+      {
+        "HashCode": -652581331,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__AdminUIErrorAlertRazorViewComponentTagHelper",
+        "AssemblyName": "SSRD.AdminUI.Template",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:admin-ui-error-alert-razor"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__AdminUIErrorAlertRazorViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "AdminUIErrorAlertRazor"
+        }
+      },
+      {
+        "HashCode": 312879034,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__AdminUIFaviconViewComponentTagHelper",
+        "AssemblyName": "SSRD.AdminUI.Template",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:admin-ui-favicon"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__AdminUIFaviconViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "AdminUIFavicon"
+        }
+      },
+      {
+        "HashCode": -2107804191,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__AdminUIReCaptchaInputViewComponentTagHelper",
+        "AssemblyName": "SSRD.AdminUI.Template",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:admin-ui-re-captcha-input"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__AdminUIReCaptchaInputViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "AdminUIReCaptchaInput"
+        }
+      },
+      {
+        "HashCode": 1552057560,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__AdminUIReCaptchaJavaScriptViewComponentTagHelper",
+        "AssemblyName": "SSRD.AdminUI.Template",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:admin-ui-re-captcha-java-script"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "action",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "action"
+            }
+          },
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "form-container",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "formContainer"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__AdminUIReCaptchaJavaScriptViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "AdminUIReCaptchaJavaScript"
+        }
+      },
+      {
+        "HashCode": -1074435632,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__IdentityConfirmationModalViewComponentTagHelper",
+        "AssemblyName": "SSRD.AdminUI.Template",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:identity-confirmation-modal"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__IdentityConfirmationModalViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "IdentityConfirmationModal"
+        }
+      },
+      {
+        "HashCode": -614731230,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__IdentityErrorModalViewComponentTagHelper",
+        "AssemblyName": "SSRD.AdminUI.Template",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:identity-error-modal"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__IdentityErrorModalViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "IdentityErrorModal"
+        }
+      },
+      {
+        "HashCode": 1931343932,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__IdentityStatusAlertJsViewComponentTagHelper",
+        "AssemblyName": "SSRD.AdminUI.Template",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:identity-status-alert-js"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__IdentityStatusAlertJsViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "IdentityStatusAlertJs"
+        }
+      },
+      {
+        "HashCode": 1227132542,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__IdentityStatusAlertRazorViewComponentTagHelper",
+        "AssemblyName": "SSRD.AdminUI.Template",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:identity-status-alert-razor",
+            "Attributes": [
+              {
+                "Name": "status-alert"
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "status-alert",
+            "TypeName": "SSRD.AdminUI.Template.Models.StatusAlertViewModel",
+            "Metadata": {
+              "Common.PropertyName": "statusAlert"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__IdentityStatusAlertRazorViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "IdentityStatusAlertRazor"
+        }
+      },
+      {
         "HashCode": -1429085283,
         "Kind": "Components.Bind",
         "Name": "Bind",
