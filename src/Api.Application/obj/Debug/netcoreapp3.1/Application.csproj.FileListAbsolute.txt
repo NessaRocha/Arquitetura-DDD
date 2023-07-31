@@ -100,3 +100,6 @@ C:\Users\Arquitetura-DDD\src\Api.Application\bin\Debug\netcoreapp3.1\CrossCuttin
 C:\Users\Arquitetura-DDD\src\Api.Application\bin\Debug\netcoreapp3.1\Data.pdb
 C:\Users\Arquitetura-DDD\src\Api.Application\obj\Debug\netcoreapp3.1\Application.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Arquitetura-DDD\src\Api.Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
+C:\Users\Arquitetura-DDD\src\Api.Application\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Arquitetura-DDD\src\Api.Application\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Arquitetura-DDD\src\Api.Application\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
