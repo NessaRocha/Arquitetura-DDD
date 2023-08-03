@@ -29,7 +29,6 @@ namespace Application
 
             ConfigureService.ConfigureDependenciesService(services);
             ConfigureRepository.ConfigureDependenciesRepository(services);
-            services.AddMvc();
             services.AddControllers();
             services.AddSwaggerGen();
         }
@@ -46,7 +45,7 @@ namespace Application
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Curso de Api com AspNetCore");
-                c.RoutePrefix = string.Empty;
+
             });
 
             app.UseRouting();
