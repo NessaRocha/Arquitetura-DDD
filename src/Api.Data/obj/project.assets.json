@@ -9327,11 +9327,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Arquitetura-DDD\\src\\Api.Data\\Data.csproj",
+      "projectUniqueName": "c:\\Users\\Arquitetura-DDD\\src\\Api.Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\Arquitetura-DDD\\src\\Api.Data\\Data.csproj",
+      "projectPath": "c:\\Users\\Arquitetura-DDD\\src\\Api.Data\\Data.csproj",
       "packagesPath": "C:\\Users\\nessa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Arquitetura-DDD\\src\\Api.Data\\obj\\",
+      "outputPath": "c:\\Users\\Arquitetura-DDD\\src\\Api.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9351,8 +9351,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Arquitetura-DDD\\src\\Api.Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Arquitetura-DDD\\src\\Api.Domain\\Domain.csproj"
+            "c:\\Users\\Arquitetura-DDD\\src\\Api.Domain\\Domain.csproj": {
+              "projectPath": "c:\\Users\\Arquitetura-DDD\\src\\Api.Domain\\Domain.csproj"
             }
           }
         }

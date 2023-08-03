@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u4UKuL3PMxt0HQf6SokdDpjj7w0Vs9lgK9DSIqq2F4bf5I0KCx5YsHOptBSmaVpw9aqXCjp19+vmdLDJr78VVQ==",
+  "dgSpecHash": "IyYpzMMsMg8fDYbpW0wghfhvLdAa4XvMy79ejb7uRK+BDxTCOmOTM/OXX8ujC+aF/Ykc5ICJUxcg74eYnsTBuQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Arquitetura-DDD\\src\\Api.CrossCutting\\CrossCutting.csproj",
+  "projectFilePath": "c:\\Users\\Arquitetura-DDD\\src\\Api.CrossCutting\\CrossCutting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nessa\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\nessa\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

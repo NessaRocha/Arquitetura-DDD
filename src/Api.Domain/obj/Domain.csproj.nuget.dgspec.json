@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Arquitetura-DDD\\src\\Api.Domain\\Domain.csproj": {}
+    "c:\\Users\\Arquitetura-DDD\\src\\Api.Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Arquitetura-DDD\\src\\Api.Domain\\Domain.csproj": {
+    "c:\\Users\\Arquitetura-DDD\\src\\Api.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arquitetura-DDD\\src\\Api.Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Users\\Arquitetura-DDD\\src\\Api.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Arquitetura-DDD\\src\\Api.Domain\\Domain.csproj",
+        "projectPath": "c:\\Users\\Arquitetura-DDD\\src\\Api.Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\nessa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arquitetura-DDD\\src\\Api.Domain\\obj\\",
+        "outputPath": "c:\\Users\\Arquitetura-DDD\\src\\Api.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
