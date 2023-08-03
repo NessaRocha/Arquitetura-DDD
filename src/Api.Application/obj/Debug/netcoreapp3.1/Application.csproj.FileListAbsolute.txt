@@ -103,3 +103,6 @@ C:\Users\Arquitetura-DDD\src\Api.Application\obj\Debug\netcoreapp3.1\Application
 C:\Users\Arquitetura-DDD\src\Api.Application\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Users\Arquitetura-DDD\src\Api.Application\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Arquitetura-DDD\src\Api.Application\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Arquitetura-DDD\src\Api.Application\bin\Debug\netcoreapp3.1\SwashBuckle.AspNetCore.MicrosoftExtensions.dll
+C:\Users\Arquitetura-DDD\src\Api.Application\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Arquitetura-DDD\src\Api.Application\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll

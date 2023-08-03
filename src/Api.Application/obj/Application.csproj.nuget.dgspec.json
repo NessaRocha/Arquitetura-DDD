@@ -51,6 +51,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "SwashBuckle.AspNetCore.MicrosoftExtensions": {
+              "target": "Package",
+              "version": "[0.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
