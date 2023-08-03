@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "25dNAPrU8/HgR8sCa6HQxkENa80CFXtcmAOjWqOoySZV+w/QCliGt/US45SnA11M8988aNY/5hemp87omOFbOg==",
+  "dgSpecHash": "uz72oUmnyCNuFRNi4Fz1fa3H2HxnrZoPiXJvWjK5McobMEh/4cIz5Sg4+qGUID7Wp9sbkmn1/P9oMQ/pHZYu7g==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Arquitetura-DDD\\src\\Api.Service\\Service.csproj",
+  "projectFilePath": "C:\\Users\\Arquitetura-DDD\\src\\Api.Service\\Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nessa\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\nessa\\.nuget\\packages\\dashboardcode.routines\\3.0.5\\dashboardcode.routines.3.0.5.nupkg.sha512",

@@ -26,8 +26,9 @@
         "dependencies": {
           "CrossCutting": "1.0.0",
           "Domain": "1.0.0",
+          "ErazerBrecht.Swashbuckle.AspNetCore.SwaggerUI": "1.0.1",
           "Service": "1.0.0",
-          "SwashBuckle.AspNetCore.MicrosoftExtensions": "0.5.0",
+          "SwashBuckle.AspNetCore.MsExtensions": "4.0.1",
           "Microsoft.AspNetCore.Antiforgery.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -102,7 +103,7 @@
           "Microsoft.AspNetCore.SignalR.Core": "3.1.0.0",
           "Microsoft.AspNetCore.SignalR": "3.1.0.0",
           "Microsoft.AspNetCore.SignalR.Protocols.Json": "3.1.0.0",
-          "Microsoft.AspNetCore.StaticFiles": "3.1.0.0",
+          "Microsoft.AspNetCore.StaticFiles.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.WebSockets": "3.1.0.0",
           "Microsoft.AspNetCore.WebUtilities.Reference": "3.1.0.0",
           "Microsoft.CSharp.Reference": "4.0.0.0",
@@ -293,7 +294,7 @@
           "System.Xml.XDocument.Reference": "4.1.2.0",
           "System.Xml.XmlDocument.Reference": "4.1.2.0",
           "System.Xml.XmlSerializer.Reference": "4.1.2.0",
-          "System.Xml.XPath.Reference": "4.1.2.0",
+          "System.Xml.XPath": "4.1.2.0",
           "System.Xml.XPath.XDocument": "4.1.2.0",
           "WindowsBase": "4.0.0.0"
         },
@@ -396,6 +397,24 @@
         },
         "compile": {
           "lib/netstandard2.1/DashboardCode.Routines.Storage.EfCore.Relational.dll": {}
+        }
+      },
+      "ErazerBrecht.Swashbuckle.AspNetCore.SwaggerUI/1.0.1": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Routing": "2.1.1",
+          "Microsoft.AspNetCore.StaticFiles": "1.0.4",
+          "Microsoft.Extensions.FileProviders.Embedded": "3.0.0",
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.6/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.6/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
         }
       },
       "Fangxf.HisServer.EntityFrameworkCore.MySql/3.0.1": {
@@ -652,7 +671,7 @@
           "Microsoft.Net.Http.Headers": "2.1.1"
         }
       },
-      "Microsoft.AspNetCore.Mvc.ApiExplorer/1.0.0": {
+      "Microsoft.AspNetCore.Mvc.ApiExplorer/2.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Core": "2.1.16"
         }
@@ -717,6 +736,15 @@
       "Microsoft.AspNetCore.Routing.Abstractions/2.1.1": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.1.1"
+        }
+      },
+      "Microsoft.AspNetCore.StaticFiles/1.0.4": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.1.1",
+          "Microsoft.AspNetCore.Http.Extensions": "2.1.1",
+          "Microsoft.Extensions.FileProviders.Abstractions": "3.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.6",
+          "Microsoft.Extensions.WebEncoders": "2.1.1"
         }
       },
       "Microsoft.AspNetCore.WebUtilities/2.1.1": {
@@ -1571,55 +1599,50 @@
           "lib/netstandard2.0/Stubble.Core.dll": {}
         }
       },
-      "SwashBuckle.AspNetCore.MicrosoftExtensions/0.5.0": {
+      "SwashBuckle.AspNetCore.MsExtensions/4.0.1": {
         "dependencies": {
-          "Microsoft.AspNetCore.WebUtilities": "2.1.1",
-          "NETStandard.Library": "1.6.1",
-          "Swashbuckle.AspNetCore.SwaggerGen": "1.0.0"
+          "Swashbuckle.AspNetCore.SwaggerGen": "4.0.1"
         },
         "runtime": {
-          "lib/netstandard1.6/SwashBuckle.AspNetCore.MicrosoftExtensions.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+          "lib/netstandard2.0/SwashBuckle.AspNetCore.MicrosoftExtensions.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
           }
         },
         "compile": {
-          "lib/netstandard1.6/SwashBuckle.AspNetCore.MicrosoftExtensions.dll": {}
+          "lib/netstandard2.0/SwashBuckle.AspNetCore.MicrosoftExtensions.dll": {}
         }
       },
-      "Swashbuckle.AspNetCore.Swagger/1.0.0": {
+      "Swashbuckle.AspNetCore.Swagger/4.0.1": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Core": "2.1.16",
-          "Microsoft.AspNetCore.Mvc.Formatters.Json": "2.1.3",
-          "NETStandard.Library": "1.6.1"
+          "Microsoft.AspNetCore.Mvc.Formatters.Json": "2.1.3"
         },
         "runtime": {
-          "lib/netstandard1.6/Swashbuckle.AspNetCore.Swagger.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
           }
         },
         "compile": {
-          "lib/netstandard1.6/Swashbuckle.AspNetCore.Swagger.dll": {}
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll": {}
         }
       },
-      "Swashbuckle.AspNetCore.SwaggerGen/1.0.0": {
+      "Swashbuckle.AspNetCore.SwaggerGen/4.0.1": {
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.ApiExplorer": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.ApiExplorer": "2.0.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.1.16",
           "Microsoft.AspNetCore.Mvc.DataAnnotations": "2.1.3",
-          "NETStandard.Library": "1.6.1",
-          "Swashbuckle.AspNetCore.Swagger": "1.0.0",
-          "System.Xml.XPath": "4.0.1"
+          "Swashbuckle.AspNetCore.Swagger": "4.0.1"
         },
         "runtime": {
-          "lib/netstandard1.6/Swashbuckle.AspNetCore.SwaggerGen.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
           }
         },
         "compile": {
-          "lib/netstandard1.6/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
         }
       },
       "System.AppContext/4.3.0": {
@@ -2487,19 +2510,6 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "System.Xml.XPath/4.0.1": {
-        "dependencies": {
-          "System.Collections": "4.3.0",
-          "System.Diagnostics.Debug": "4.3.0",
-          "System.Globalization": "4.3.0",
-          "System.IO": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Runtime.Extensions": "4.3.0",
-          "System.Threading": "4.3.0",
-          "System.Xml.ReaderWriter": "4.3.0"
-        }
-      },
       "CrossCutting/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
@@ -2993,7 +3003,7 @@
         },
         "compileOnly": true
       },
-      "Microsoft.AspNetCore.StaticFiles/3.1.0.0": {
+      "Microsoft.AspNetCore.StaticFiles.Reference/3.1.0.0": {
         "compile": {
           "Microsoft.AspNetCore.StaticFiles.dll": {}
         },
@@ -4139,7 +4149,7 @@
         },
         "compileOnly": true
       },
-      "System.Xml.XPath.Reference/4.1.2.0": {
+      "System.Xml.XPath/4.1.2.0": {
         "compile": {
           "System.Xml.XPath.dll": {}
         },
@@ -4206,6 +4216,13 @@
       "sha512": "sha512-z2pE2SaMsarARoR2U8G1J+/9F8882JEsn3jHiJX3IHZL5DP37ZjRqhDn1Lp1m8tzU0x6hF8v6424kqMhqIrCSg==",
       "path": "dashboardcode.routines.storage.efcore.relational/3.0.5",
       "hashPath": "dashboardcode.routines.storage.efcore.relational.3.0.5.nupkg.sha512"
+    },
+    "ErazerBrecht.Swashbuckle.AspNetCore.SwaggerUI/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f2C9bGPdPX+zvlA3ciaNgPNU4gmG2XEthUFAZZzN06fiz/Da1abW78cuHc2k2LrI+2FNMBpqcHVMdIS/smUflg==",
+      "path": "erazerbrecht.swashbuckle.aspnetcore.swaggerui/1.0.1",
+      "hashPath": "erazerbrecht.swashbuckle.aspnetcore.swaggerui.1.0.1.nupkg.sha512"
     },
     "Fangxf.HisServer.EntityFrameworkCore.MySql/3.0.1": {
       "type": "package",
@@ -4403,12 +4420,12 @@
       "path": "microsoft.aspnetcore.mvc.abstractions/2.1.3",
       "hashPath": "microsoft.aspnetcore.mvc.abstractions.2.1.3.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Mvc.ApiExplorer/1.0.0": {
+    "Microsoft.AspNetCore.Mvc.ApiExplorer/2.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-46aWHLmZ37c44bJzLdbSEmIxCwQo7BljHBoK8C9CPCEPOLPWmg0XyPhGyMSGY4woDmm9ukBOEpqT899BWSxhRw==",
-      "path": "microsoft.aspnetcore.mvc.apiexplorer/1.0.0",
-      "hashPath": "microsoft.aspnetcore.mvc.apiexplorer.1.0.0.nupkg.sha512"
+      "sha512": "sha512-qXFxCjhhhp6jjU06M02yhNRtPXVD8K/zoQM5jLt8FiHyd6i3h2rNkhq8PqhtFW8LaappJ6C3qHVKxMmJdrixew==",
+      "path": "microsoft.aspnetcore.mvc.apiexplorer/2.0.0",
+      "hashPath": "microsoft.aspnetcore.mvc.apiexplorer.2.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Mvc.Core/2.1.16": {
       "type": "package",
@@ -4458,6 +4475,13 @@
       "sha512": "sha512-Aa88Bi0/HI8dPReC0XqByPiVGYDRfj6Xh2eVsNCisnlgFHonDdW9CQsNPhVSK+uWQl3kDMFxFpeJ1ktz/wUHsQ==",
       "path": "microsoft.aspnetcore.routing.abstractions/2.1.1",
       "hashPath": "microsoft.aspnetcore.routing.abstractions.2.1.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.StaticFiles/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2pNvwewAazhaaCdw2CGUvIcDrNQMlqP57JgBDf3v+pRj1rZ29HVnpvkX6a+TrmRYlJNmmxHOKEt468uE/gDcFw==",
+      "path": "microsoft.aspnetcore.staticfiles/1.0.4",
+      "hashPath": "microsoft.aspnetcore.staticfiles.1.0.4.nupkg.sha512"
     },
     "Microsoft.AspNetCore.WebUtilities/2.1.1": {
       "type": "package",
@@ -5019,26 +5043,26 @@
       "path": "stubble.core/1.7.2",
       "hashPath": "stubble.core.1.7.2.nupkg.sha512"
     },
-    "SwashBuckle.AspNetCore.MicrosoftExtensions/0.5.0": {
+    "SwashBuckle.AspNetCore.MsExtensions/4.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-SXJZj4OqLHbPaqhf/0Xo4es+4+M7AwQCi4wsyWjjlFfohVmwRcaaer+HR+aWRqX1IJD2YNlZzjeEJovmdLlrYQ==",
-      "path": "swashbuckle.aspnetcore.microsoftextensions/0.5.0",
-      "hashPath": "swashbuckle.aspnetcore.microsoftextensions.0.5.0.nupkg.sha512"
+      "sha512": "sha512-AINxEKQ/fkE9dzxrbuXPgzzN1RjGycCGR4VXfa/B3i0fiv6jlltRfxEbgjOy/BfX/rWuf6Y69JrMTxfeDdlH4Q==",
+      "path": "swashbuckle.aspnetcore.msextensions/4.0.1",
+      "hashPath": "swashbuckle.aspnetcore.msextensions.4.0.1.nupkg.sha512"
     },
-    "Swashbuckle.AspNetCore.Swagger/1.0.0": {
+    "Swashbuckle.AspNetCore.Swagger/4.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tzZ6tXjopV6jvcHzOX7PjyYBWqof5mhJUXqxb/kPF17Z5LXxr+uglnTLlYOjWCm5BfvdxWYtU95uJgc14L1Eqw==",
-      "path": "swashbuckle.aspnetcore.swagger/1.0.0",
-      "hashPath": "swashbuckle.aspnetcore.swagger.1.0.0.nupkg.sha512"
+      "sha512": "sha512-rqzS3vHrjz+tR5j0nZOKZyaMTDfLGbVYkwMq205aYuGbsiGwbOlNU0Q8lq4Q0ptQPMKVkUf8XouCIdJ3qpK17w==",
+      "path": "swashbuckle.aspnetcore.swagger/4.0.1",
+      "hashPath": "swashbuckle.aspnetcore.swagger.4.0.1.nupkg.sha512"
     },
-    "Swashbuckle.AspNetCore.SwaggerGen/1.0.0": {
+    "Swashbuckle.AspNetCore.SwaggerGen/4.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1kuKS+4x1m85gpTOqICp5BRZB3Ir6VsegPN9hanH6xRp+tGDQNfFhVNPZ59Wrl8gM8YqIhB85xmFAkK68CqVdA==",
-      "path": "swashbuckle.aspnetcore.swaggergen/1.0.0",
-      "hashPath": "swashbuckle.aspnetcore.swaggergen.1.0.0.nupkg.sha512"
+      "sha512": "sha512-ztAj0T1U+2AqQNA8b+nr8yVkDW9XzNaAfez6d1jO13sdn2A/JW5Syn9TThsakrHxYNLt6y6aQCXbyBfQXpcQwA==",
+      "path": "swashbuckle.aspnetcore.swaggergen/4.0.1",
+      "hashPath": "swashbuckle.aspnetcore.swaggergen.4.0.1.nupkg.sha512"
     },
     "System.AppContext/4.3.0": {
       "type": "package",
@@ -5614,13 +5638,6 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "System.Xml.XPath/4.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-UWd1H+1IJ9Wlq5nognZ/XJdyj8qPE4XufBUkAW59ijsCPjZkZe0MUzKKJFBr+ZWBe5Wq1u1d5f2CYgE93uH7DA==",
-      "path": "system.xml.xpath/4.0.1",
-      "hashPath": "system.xml.xpath.4.0.1.nupkg.sha512"
-    },
     "CrossCutting/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -6011,7 +6028,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.AspNetCore.StaticFiles/3.1.0.0": {
+    "Microsoft.AspNetCore.StaticFiles.Reference/3.1.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -6966,7 +6983,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Xml.XPath.Reference/4.1.2.0": {
+    "System.Xml.XPath/4.1.2.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

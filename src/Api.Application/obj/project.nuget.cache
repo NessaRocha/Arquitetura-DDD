@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cJ8wVJ7Hwlas2zJiii5iew+nq17ZwLNCvfsDxXOWGB3ws8a/7kePinnHR8lupYe/XlKlDlw+BlDNCLTJixaKEw==",
+  "dgSpecHash": "j8V1M/ABgCKTJwZRYVxqRwJrE+VI9EqSj8vC1JsO3jumiSsx4FjRY7u7x+EFwOz0aYNl/ImngsMPPrqenUeaQw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Arquitetura-DDD\\src\\Api.Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\Arquitetura-DDD\\src\\Api.Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nessa\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\nessa\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

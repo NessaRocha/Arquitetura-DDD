@@ -106,3 +106,4 @@ C:\Users\Arquitetura-DDD\src\Api.Application\bin\Debug\netcoreapp3.1\System.Runt
 C:\Users\Arquitetura-DDD\src\Api.Application\bin\Debug\netcoreapp3.1\SwashBuckle.AspNetCore.MicrosoftExtensions.dll
 C:\Users\Arquitetura-DDD\src\Api.Application\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Arquitetura-DDD\src\Api.Application\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Arquitetura-DDD\src\Api.Application\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll

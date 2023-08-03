@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qxzPQsUvoQF9OTfUI8Z+70ohyzBrwElBt3zezFHerW+0rCXTKcbxSHUqoT+BOBezR4KaFGwS10VHXhdtyR/KRQ==",
+  "dgSpecHash": "gO7a3vc98YpfRmPGFz5g/25RW/TMo8MwCkEZ+/ybqa2rVkY7Qe6dM0WhpqVe5LZijTrd0jMFIQfi+ImdHFsmog==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Arquitetura-DDD\\src\\Api.Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\Arquitetura-DDD\\src\\Api.Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
